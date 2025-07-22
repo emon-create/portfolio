@@ -11,7 +11,7 @@
     <!-- navbar section  -->
     <nav id="navbar" class="flex s-around bg-color">
       <div class="left-nav">
-        <h2 class="t-white">Portolio</h2>
+        <h2 class="t-white">Portfolio</h2>
       </div>
       <div class="right-nav">
         <li>
@@ -59,29 +59,55 @@
       </div>
       <div class="home-right flex s-center items-center">
         <div class="circle flex s-center items-center" id="mainimage">
-          <img src="{% static 'images/'%}" alt="picture" />
+          <img src="{% static 'images/emon.png'%}" alt="picture" />
         </div>
       </div>
     </section>
 
     <!-- about section  -->
     <section id="about">
-      <h1 class="t center my-2 t-white f-2">About<menu></menu></h1>
+      <h1 class="t-center my-2 t-white f-2" style="text-align: center">
+        About<menu></menu>
+      </h1>
       <div class="about-container flex s-around">
         <div class="about-left flex s-center items-center">
-          <img src="{% static 'images/'%}" alt="image" />
+          <img src="{% static 'images/about.jpg'%}" alt="image" />
         </div>
       </div>
 
       <div class="about-right flex">
         <div class="about-content">
-          <h1 class="t-white m-b-1 popinss">Emon Khan</h1>
-          <p class="t-white popinss">
-            Lorem ipsum dolor sit amet, consectetur adipisicing olit. Laboriosm
-            est isto delectus iste atque recusandae officia id omnis opio vel,
-            numquam, aspernatur in unde nihil, nisi dicta dolores veniam
-            debitis!
-          </p>
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              width: 100%;
+            "
+          >
+            <h1 class="t-white m-b-1 popinss" style="text-align: center">
+              Emon Khan
+            </h1>
+            <p
+              class="t-white popinss"
+              style="text-align: center; max-width: 700px"
+            >
+              Hi, I'm a passionate and curious learner currently diving into the
+              world of software engineering. I'm actively building my skills in
+              programming, problem-solving, and software development through
+              hands-on practice and continuous learning. Right now, I’m focusing
+              on mastering the fundamentals of languages like Python,
+              JavaScript, and C++, while also exploring web development, data
+              structures, and algorithms. I believe in learning by doing, so I
+              often work on small projects to apply what I learn and improve my
+              understanding. My goal is to grow into a well-rounded software
+              engineer who can build meaningful solutions and contribute to
+              real-world projects. This portfolio is a reflection of my learning
+              journey — every step, project, and piece of code brings me closer
+              to that goal.
+            </p>
+          </div>
           <a href="btn" id="hireme" href="">Hire me </a>
         </div>
       </div>
@@ -89,10 +115,12 @@
 
     <!-- skill  -->
     <section id="skills">
-      <h1 class="t-center my-2 t-white f-2">Skills</h1>
+      <h1 class="t-center my-2 t-white f-2" style="text-align: center">
+        Skills
+      </h1>
       <div class="services-sentainer flex s-around h-50">
         <div class="skills-left flex s-center items-center">
-          <img src="{%static 'images/per.jpg'%}" alt="skills image" />
+          <img src="{%static 'images/skills.jpg'%}" alt="skills image" />
         </div>
         <div class="skills-right flex items-center">
           <div class="skills-container">
@@ -127,25 +155,42 @@
 
     <!-- project section  -->
     <section id="Project">
-      <h1 class="t-center my-2 t-white f-2">Project</h1>
+      <h1 class="t-center my-2 t-white f-2" style="text-align: center">
+        Projects
+      </h1>
       <div class="project-container flex s-center">
         <div class="project-item flex f-col s-center items-center">
-          <h1 class="t-white popinss">Amzone clone</h1>
+          <h1 class="t-white popinss">SmartSchool-Mangement</h1>
           <p class="t-white popinss">
-            lorem ipsum dolor sit amet consectietur, adipisicing elit,
+            SmartSchool Management is a web-based system that helps schools
+            manage students, teachers, attendance, exams, fees, and
+            communication—all in one platform.
           </p>
           <div class="button flex s-around">
-            <a href="" target="_blank" class="btn mx-1 m-top">Github</a>
+            <a
+              href="https://github.com/emon-create/SmartSchool-Mangement"
+              target="_blank"
+              class="btn mx-1 m-top"
+              >Github</a
+            >
           </div>
         </div>
 
         <div class="project-item flex f-col s-center items-center">
-          <h1 class="t-white popinss">Amzone clone</h1>
+          <h1 class="t-white popinss">mini project online cv generator</h1>
           <p class="t-white popinss">
-            lorem ipsum dolor sit amet consectietur, adipisicing elit,
+            Online CV Generator is a simple web application that allows users to
+            create professional resumes by entering personal, educational, and
+            work details. It automatically formats the input into a downloadable
+            CV.
           </p>
           <div class="button flex s-around">
-            <a href="" target="_blank" class="btn mx-1 m-top">Github</a>
+            <a
+              href="https://github.com/emon-create/Internet-Programming/blob/main/mini%20project%20online%20cv%20generator/online_cv.html"
+              target="_blank"
+              class="btn mx-1 m-top"
+              >Github</a
+            >
           </div>
         </div>
       </div>
@@ -153,7 +198,9 @@
 
     <!-- section asdf -->
     <section id="Contact" class="m-b-1">
-      <h1 class="t-center my-2 t-white f-2">Contact me</h1>
+      <h1 class="t-center my-2 t-white f-2" style="text-align: center">
+        Contact me
+      </h1>
       <div class="Contact-container flex s-around items-center">
         <div class="form" id="contactfrom">
           <form method="post">
@@ -228,8 +275,8 @@
         </a>
       </ul>
       <p class="t-center my-2 popinss">
-        Copy; All Right Reserved
-        <span class="cpy-white popinss">Error By Night</span>
+        &copy; 2025 All Rights Reserved |
+        <span class="cpy-white popinss">Developer By Emon Khan</span>
       </p>
     </footer>
   </body>
