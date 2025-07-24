@@ -30,7 +30,7 @@
           ></a>
         </li>
         <li>
-          <a href="#porjects" class="t-white roboto"
+          <a href="#Project" class="t-white roboto"
             >Project <i class="fa-solid fa-project-diagarm"> </i
           ></a>
         </li>
@@ -52,7 +52,11 @@
           <a href="{%static 'pdf/django.pdf'%}" target="_blank">
             <button class="btn popinss">Resume</button>
           </a>
-          <a class="btn live popinss" id="hirme" href="" target="_blank"
+          <a
+            class="btn live popinss"
+            id="hirme"
+            href="https://teams.live.com/l/invite/FEAHkxXG9vZrapsRQE"
+            target="_blank"
             >lets talk</a
           >
         </div>
@@ -108,7 +112,11 @@
               to that goal.
             </p>
           </div>
-          <a href="btn" id="hireme" href="">Hire me </a>
+          <a
+            id="hireme"
+            href="https://www.linkedin.com/in/ed-emon-khan-202612266/"
+            >Hire me
+          </a>
         </div>
       </div>
     </section>
@@ -193,6 +201,24 @@
             >
           </div>
         </div>
+
+        <div class="project-item flex f-col s-center items-center">
+          <h1 class="t-white popinss">Libaray Management System</h1>
+          <p class="t-white popinss">
+            The Library Management System is a desktop application developed
+            using C# and Windows Forms, designed to automate the operations of a
+            library. This system allows users to manage books, members, issue
+            and return transactions efficiently.
+          </p>
+          <div class="button flex s-around">
+            <a
+              href="https://github.com/emon-create/final-test/tree/main/Library%20Application"
+              target="_blank"
+              class="btn mx-1 m-top"
+              >Github</a
+            >
+          </div>
+        </div>
       </div>
     </section>
 
@@ -202,7 +228,7 @@
         Contact me
       </h1>
       <div class="Contact-container flex s-around items-center">
-        <div class="form" id="contactfrom">
+        <div class="form" id="contact">
           <form method="post">
             {% csrf_token %}
             <div class="name form-div">
